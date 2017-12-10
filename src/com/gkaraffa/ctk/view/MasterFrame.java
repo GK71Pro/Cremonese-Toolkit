@@ -12,6 +12,10 @@ import javax.swing.JTextArea;
 
 public class MasterFrame extends JFrame {
 
+  /**
+   * 
+   */
+  private static final long serialVersionUID = 1402347607879401036L;
   private JPanel contentPane;
 
   /**
@@ -35,6 +39,7 @@ public class MasterFrame extends JFrame {
   /**
    * Create the frame.
    */
+  @SuppressWarnings("rawtypes")
   public MasterFrame() {
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     setBounds(100, 100, 450, 675);
